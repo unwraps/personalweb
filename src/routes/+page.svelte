@@ -8,7 +8,7 @@
     // create struct for github user reposs
     onMount(() => {
         let tl1 = gsap.timeline();
-        tl1.from('section h1', {opacity: 0, y: 100, duration: 1, ease: 'power4.out'})
+        tl1.from('section img,section h1', {opacity: 0, y: 100, duration: 1, ease: 'power4.out'})
            .from('section p, section span, section a', {
                opacity: 0,
                y: 100,
@@ -41,6 +41,7 @@
 	<section class="grid h-screen w-full items-center">
 		<div class="max-w-3xl gap-4 mx-auto px-16 grid grid-flow-row w-auto md:w-[64rem] md:grid-flow-col">
 			<div>
+                <img src="https://avatars.githubusercontent.com/u/86614284?v=4" width="64" height="64" class="pb-4 rounded-full" alt="">
 				<h1 class="text-3xl font-bold">Hi im best!</h1>
 				<p>Little known fact about me</p>
                 <p>- I do code</p>
