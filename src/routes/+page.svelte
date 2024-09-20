@@ -60,9 +60,9 @@
             <!-- <div class="flex justify-center h-96 w-full items-center">
                 <Icon icon="svg-spinners:180-ring-with-bg" class="size-10"/>
             </div> -->
-            <div class="grid grid-cols-2 md:grid-cols-2 p-32 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 p-16 gap-8">
                 {#each repos as repo}
-                <div class="repos border shadow-md border-foreground w-[32rem] h-[24rem] rounded-xl">
+                <div class="repos border shadow-md border-foreground max-w-[32rem] max-h-[24rem] rounded-xl">
                     <div class="p-4">
                         <h1 class="text-2xl font-bold">{repo.name}</h1>
                         <p>{repo.description}</p>
