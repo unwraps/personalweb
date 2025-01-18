@@ -51,8 +51,9 @@
                     <a href="mailto:me@phu.best"><Icon icon="mdi:email" class="size-6"/></a>
                 </div>
 			</div>
-            <div class="flex justify-center items-center">
-				<a href="https://github.com/unwraps"><Button>View my port tho</Button></a>
+            <div class="flex flex-col gap-4 justify-center items-center">
+				<a href="https://pub-2831f54ef7e548fa98f1b5268f886806.r2.dev/cedt-resume.pdf"><Button>View my resume</Button></a>
+                <a href="https://github.com/unwraps">Check more about me</a>
 			</div>
 		</div>
 	</section>
